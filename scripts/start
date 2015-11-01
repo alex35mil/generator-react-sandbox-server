@@ -1,0 +1,6 @@
+#!/bin/sh
+
+$(npm bin)/babel \
+  --watch \
+  --out-file generators/app/index.js \
+  generators/app/index.es6

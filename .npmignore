@@ -1,0 +1,11 @@
+generators/app/index.es6
+
+test/
+scripts/
+*.log
+.babelrc
+.eslintignore
+.eslintrc
+.gitignore
+.npmignore
+.travis.yml

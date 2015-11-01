@@ -1,0 +1,56 @@
+{
+  "name": "generator-react-sandbox-server",
+  "version": "0.0.1",
+  "description": "Yeoman React dev server scaffolder",
+  "author": "Alex Fedoseev <alex.fedoseev@gmail.com> (https://github.com/alexfedoseev)",
+  "license": "MIT",
+  "main": "generators/app/index.js",
+  "engines": {
+    "node": ">=4.2.0"
+  },
+  "repository": "https://github.com/alexfedoseev/generator-react-sandbox-server",
+  "bugs": {
+    "url": "https://github.com/alexfedoseev/generator-react-sandbox-server/issues"
+  },
+  "scripts": {
+    "start": "scripts/start",
+    "clean": "scripts/clean",
+    "build": "scripts/build",
+    "lint": "scripts/lint",
+    "test": "scripts/test",
+    "check": "npm run lint && npm run test",
+    "prerelease": "npm run check && npm run clean && npm run build",
+    "preversion": "npm run prerelease",
+    "prepublish": "npm run prerelease",
+    "release:patch": "scripts/release patch",
+    "release:minor": "scripts/release minor",
+    "release:major": "scripts/release major"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "react",
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "change-case": "^2.3.1",
+    "ejs": "^2.3.4",
+    "shelljs": "^0.5.3",
+    "yeoman-generator": "^0.22.2",
+    "yosay": "^1.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-eslint": "^5.0.0-beta6",
+    "babel-preset-es2015": "^6.3.13",
+    "eslint": "^1.10.3",
+    "eslint-config-alexfedoseev": "0.0.1",
+    "eslint-plugin-babel": "^3.0.0",
+    "eslint-plugin-react": "^3.14.0",
+    "mocha": "^2.3.4",
+    "yeoman-assert": "^2.1.1",
+    "yeoman-test": "^1.0.0"
+  }
+}
