@@ -1,0 +1,4 @@
+#!/bin/sh
+
+$(npm bin)/mocha \
+  --compilers js:babel-register

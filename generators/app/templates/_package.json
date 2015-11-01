@@ -1,0 +1,14 @@
+{
+  "name": "<%= appName %>",
+  "version": "0.0.1",
+  "description": "My awesome app",
+  "private": true,
+  "repository": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_PATH=. babel-node server.js",
+    "lint": "eslint --ext .js,.jsx ."
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

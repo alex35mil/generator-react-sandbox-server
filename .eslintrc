@@ -1,0 +1,6 @@
+---
+extends: ./generators/app/templates/.eslintrc
+
+rules:
+  no-sync: 0
+  no-console: 0
