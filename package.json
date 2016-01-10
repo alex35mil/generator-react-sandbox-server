@@ -1,6 +1,6 @@
 {
   "name": "generator-react-sandbox-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Yeoman React dev server scaffolder",
   "author": "Alex Fedoseev <alex.fedoseev@gmail.com> (https://github.com/alexfedoseev)",
   "license": "MIT",
