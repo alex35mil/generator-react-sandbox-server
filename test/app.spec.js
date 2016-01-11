@@ -16,7 +16,6 @@ describe('generator-react-sandbox-server:app', () => {
     '.editorconfig',
     '.eslintignore',
     '.eslintrc',
-    '.gitignore',
     'package.json',
     'server.js',
   ];

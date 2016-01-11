@@ -158,7 +158,6 @@ class ReactSandboxSerer extends yeoman.Base {
         this.copy('.editorconfig', '.', '.editorconfig');
         this.copy('.eslintignore', '.', '.eslintignore');
         this.copy('.eslintrc', '.', '.eslintrc');
-        this.copy('.gitignore', '.', '.gitignore');
         this.copy('.scss-lint.yml', '.', '.scss-lint.yml');
         this.render('_package.json', 'package.json', { appName: this.appName });
         this.copy('server.js', '.', 'server.js');
