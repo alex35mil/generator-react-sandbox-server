@@ -108,7 +108,7 @@ class ReactSandboxSerer extends yeoman.Base {
     this.log(
       yosay(
         `Welcome to the groundbreaking ` +
-        `${chalk.red('React-Sandbox-Serer')} generator!`
+        `${chalk.red('React-Sandbox-Server')} generator!`
       )
     );
 
